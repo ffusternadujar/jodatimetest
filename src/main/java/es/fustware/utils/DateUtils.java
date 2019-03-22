@@ -22,4 +22,8 @@ public class DateUtils {
         DateTime d = fmt.parseDateTime(source);
         return d.toDate();
     }
+
+    private static void testSonar() {
+        System.out.println("this is a test");
+    }
 }
