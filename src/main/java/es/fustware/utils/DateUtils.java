@@ -26,4 +26,11 @@ public class DateUtils {
     private static void testSonar() {
         System.out.println("this is a test");
     }
+
+    private static void testSonar2() {
+        String a = "";
+        for (int i=0; i<5; i++){
+            a=a+1;
+        }
+    }
 }
